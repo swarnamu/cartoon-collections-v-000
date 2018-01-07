@@ -8,10 +8,10 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls.collect{|x| x.capitalize + "!"}
 end
 
-def long_planeteer_calls(words)# code an argument here
+def long_planeteer_calls(long_planeteer_calls)# code an argument here
   # Your code here
   i = 0
-  if words.any? { |i| i.length > 4}
+  if long_planeteer_calls.any? { |i| i.length > 4}
     return true
   else
     return false
